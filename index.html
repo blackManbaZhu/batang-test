@@ -1,13 +1,66 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="keywords" content=""><meta name="description" content=""><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><base href="/"><link rel="stylesheet" type="text/css" href="static/css/swiper.css"><link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"><title></title><link href="./batang-test/static/css/app.b00e5b6a77683d1a0aa9d28d6bca6b2b.css" rel="stylesheet"></head><body class="my-vue"><div id="app"></div><script>(function (doc, win) {
-      var docEl = doc.documentElement,
-        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
-        recalc = function () {
-          var clientWidth = docEl.clientWidth > 750 ? 360 : docEl.clientWidth;
-          if (!clientWidth) return;
-          docEl.style.fontSize = clientWidth / 750 * 100 + 'px';
-        };
-      if (!doc.addEventListener) return;
-      doc.addEventListener('DOMContentLoaded', recalc, false);
-      if (docEl.clientWidth > 750) return;
-      win.addEventListener(resizeEvt, recalc, false);
-    })(document, window);</script><script src="./static/js/swiper.min.js"></script><script type="text/javascript" src="./batang-test/static/js/manifest.2d31533328101d40698c.js"></script><script type="text/javascript" src="./batang-test/static/js/vendor.8a99d0a45ef1e14e2335.js"></script><script type="text/javascript" src="./batang-test/static/js/app.55ab5c81e46a585c8d53.js"></script></body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,user-scalable=0"
+    />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <base href="/" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/batang-test/static/css/swiper.css"
+    />
+    <link
+      href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <title></title>
+    <link
+      href="./batang-test/static/css/app.b00e5b6a77683d1a0aa9d28d6bca6b2b.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="my-vue">
+    <div id="app"></div>
+    <script>
+      (function(doc, win) {
+        var docEl = doc.documentElement,
+          resizeEvt =
+            "orientationchange" in window ? "orientationchange" : "resize",
+          recalc = function() {
+            var clientWidth = docEl.clientWidth > 750 ? 360 : docEl.clientWidth;
+            if (!clientWidth) return;
+            docEl.style.fontSize = (clientWidth / 750) * 100 + "px";
+          };
+        if (!doc.addEventListener) return;
+        doc.addEventListener("DOMContentLoaded", recalc, false);
+        if (docEl.clientWidth > 750) return;
+        win.addEventListener(resizeEvt, recalc, false);
+      })(document, window);
+    </script>
+    <script src="./batang-test/static/js/swiper.min.js"></script>
+    <script
+      type="text/javascript"
+      src="./batang-test/static/js/manifest.2d31533328101d40698c.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./batang-test/static/js/vendor.8a99d0a45ef1e14e2335.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./batang-test/static/js/app.55ab5c81e46a585c8d53.js"
+    ></script>
+  </body>
+</html>
